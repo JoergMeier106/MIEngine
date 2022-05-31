@@ -229,7 +229,7 @@ namespace MICore
         {
             get
             {
-                return MICore.Debugger.ParseAddr(Content, throwOnError: true);
+                return MICore.Debugger.ParseAddr(Content);
             }
         }
         public int ToInt
